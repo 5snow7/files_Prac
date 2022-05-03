@@ -1,0 +1,86 @@
+p{
+	border:red double 10px;
+	width:300px;
+	}
+
+#can1{
+	position:absolute;
+	left:100px;top:150px;
+	border:green double 10px;
+	border-radius:40px;
+	background-color:red;
+    //background-image:URL('cowpic5.jpg');      
+}
+
+#body{
+	background-image:URL('cowpic5.jpg'); 
+}
+
+#div1{
+	position:absolute;
+	left:1100px;top:150px;
+	border:green solid 10px;
+	border-radius:40px;
+	background-color:red;
+	text-align:center;
+	font-size:20px;
+    
+}
+
+#p1{
+    position:absolute;
+	top:50px;
+	border:green double 10px;
+	border-radius:40px;
+	padding:10px;
+	width:100px;
+}
+
+#p2{
+    position:absolute;
+	top:50px;left:950px;
+	border:green double 10px;
+	border-radius:40px;
+	padding:10px;
+	width:100px;
+}
+
+
+#text1{
+	position:absolute;
+	top:70px;left:800px;
+	border:green double 10px;
+	border-radius:20px;
+	padding:10px;
+	width:100px;
+}
+
+#butF{
+    position:absolute;
+	top:150px;left:950px;
+	border:purple double 10px;
+	border-radius:40px;
+	padding:5px;
+	width:60px;
+}
+
+#butR{
+    position:absolute;
+	top:200px;left:950px;
+	border:purple double 10px;
+	border-radius:40px;
+	padding:5px;
+	width:60px;
+}
+
+#st{
+    position:absolute;
+	top:200px;left:50px;
+	border:purple double 10px;
+	border-radius:40px;
+	padding:5px;
+	width:100px;
+	height:50px;
+	font-size:25px;
+	color:red;
+}

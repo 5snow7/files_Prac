@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="p5.dom.js" ></script>
+<script src="p5.js" ></script>
+<script src="p5.sound.js" ></script>
+<script src="sketch.js" ></script>
+<script src="logoN.js" ></script>
+<script src="stuff.js" ></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>files_Prac1</title>
+</head>
+
+<body id="body" onkeydown="moveId()">
+<div id="div1" width="400">
+<a href="C:\Users\mwomack\Desktop\Past_Progs\spiro_2019\index.html">spiro_2019</a>
+<br>
+<a href="C:\Users\mwomack\Desktop\Past_Progs\duoForClass\index.html" >duoForClass</a>
+<br>
+<a href="C:\Users\mwomack\Desktop\Past_Progs\3dShapes\index.html"   >3dShapes</a>
+<br>
+<a href="C:\Users\mwomack\Desktop\Past_Progs\duoPoly\index.html"   >duoPoly</a>
+<br>
+<a href="C:\Users\mwomack\Desktop\Past_Progs\Lindel_Recur\index.html"   >Lindel_Recur</a>
+<br>
+<a href="C:\Users\mwomack\Desktop\Past_Progs\Fireworks\index.html"  >Fireworks  </a>
+<br>
+<a href="C:\Users\mwomack\Desktop\Past_Progs\recurVwvec\index.html"  >recurWwvec  </a>
+<br>
+<a href= "C:\Users\mwomack\Desktop\Past_Progs\TTT_One\index.html">TTT_One </a>
+<br>
+<a href="C:\Users\mwomack\Desktop\Past_Progs\pat_Generation\index.html"  >pat_Generation  </a>
+<br>
+<a href="C:\Users\mwomack\Desktop\Past_Progs\3dShapes\index.html"  >3dShapes  </a>
+
+<p>where is everything</p>
+</div>
+<h1 style="text-align:center;"> Files Prac Page </h1>
+<p id="p1" > paragraph 1</p>
+<p id="p2" onclick="addText()">paragraph 2 </p>
+<canvas id="can1" width="800" height="600"></canvas>
+<input id="text1" type="text" value="text1" onmouseout="addText()">
+<input type="button" id="butF" value="fd" onclick="tFd(10)" />
+<input type="button" id="butR" value="rt" onclick="tRt(10)" />
+<input type="button" id="st" value="rt" onclick="set(10)" />
+</body>
+<script>
+//document.getElementById("myBtn").addEventListener("click", displayDate);
+let c = document.getElementById("can1");
+let ct = c.getContext("2d");
+let j=300;let xpos=0;
+let t=new logo(100,100,0,"can1");
+let par1=document.getElementById("p1");
+let par2=document.getElementById("p2");
+let keyIn=0;let strText="testing";
+setInterval(blink,1000);
+</script>
+</html>
